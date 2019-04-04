@@ -132,6 +132,8 @@ obj/
 *.iws
 /out/
 
+gradle/**
+
 # User-specific configurations
 .idea/caches/
 .idea/libraries/
