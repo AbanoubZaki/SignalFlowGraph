@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Signal Flow Graph Solver</string>
+    <string name="title_activity_build_graph">buildGraph</string>
+    <string name="copyright">Abanoub Ashraf E. Zaki آ©2019</string>
+</resources>

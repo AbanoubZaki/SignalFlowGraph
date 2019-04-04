@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo" />
+
+
+            <Button
+                android:id="@+id/btnStartSolving"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_shape1"
+                android:text="Start Solving"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btnHowToSolve"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_shape1"
+                android:text="How To Enter Data"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
